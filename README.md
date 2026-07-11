@@ -72,7 +72,7 @@ Preprints and FedDA papers are tracked in separate sections.
 
 ## Tags
 
-Each item ends with one compact badge, following the style used in [Awesome Federated Continual Learning](https://github.com/lucaznguyen/Awesome-Federated-Continual-Learning). Use one to four lowercase labels: a scope label (`vision`, `medical`, `graph`, `iot`, `fault`, `ts`, `general`), an optional task label (`cls`, `seg`, `reid`, `ood`, `tta`, `survey`, `benchmark`), and concise method labels such as `align`, `style`, `augment`, `grad`, `optim`, `agg`, `prompt`, `vlm`, `causal`, `freq`, `norm`, `flatness`, or `decentral`.
+Each item ends with one compact badge. Use one to four lowercase labels: a scope label (`vision`, `medical`, `graph`, `iot`, `fault`, `ts`, `general`), an optional task label (`cls`, `seg`, `reid`, `ood`, `tta`, `survey`, `benchmark`), and concise method labels such as `align`, `style`, `augment`, `grad`, `optim`, `agg`, `prompt`, `vlm`, `causal`, `freq`, `norm`, `flatness`, or `decentral`.
 
 ---
 
