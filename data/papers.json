@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-12",
+  "priority": "CORE A*/A main-track and Q1 journals; inherited venue ranks have not all been re-audited in this thematic update.",
+  "scope": "Direct FedDG and explicitly labelled FedDG extensions only. Not a catalogue of generic FL foundations.",
+  "papers": [
+    {
+      "id": "p005",
+      "title": "FedDiG: Frequency-Guided Diffusion Diversity for Generalizable Federated Time Series Classification",
+      "venue": "WWW",
+      "year": 2026,
+      "paper": "https://dl.acm.org/doi/10.1145/3774904.3792329",
+      "code": null,
+      "tags": [
+        "ts",
+        "cls",
+        "freq"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p006",
+      "title": "Multi-Modal Style Transfer-based Prompt Tuning for Efficient Federated Domain Generalization",
+      "venue": "AAAI",
+      "year": 2026,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39177",
+      "code": null,
+      "tags": [
+        "vision",
+        "vlm",
+        "prompt",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p007",
+      "title": "FedSDWC: Federated Synergistic Dual-Representation Weak Causal Learning for OOD",
+      "venue": "AAAI",
+      "year": 2026,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39364",
+      "code": null,
+      "tags": [
+        "general",
+        "ood",
+        "causal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p008",
+      "title": "The Aggregated Model is a Confounder: Enabling Deconfounded Federated Learning for OOD Generalization",
+      "venue": "IEEE INFOCOM",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/INFOCOM59046.2026.11571547",
+      "code": null,
+      "tags": [
+        "general",
+        "ood",
+        "causal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/INFOCOM59046.2026.11571547"
+    },
+    {
+      "id": "p009",
+      "title": "HFedATM: Hierarchical Federated Domain Generalization via Optimal Transport and Regularized Mean Aggregation",
+      "venue": "CVPR",
+      "year": 2026,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Nguyen_HFedATM_Hierarchical_Federated_Domain_Generalization_via_Optimal_Transport_and_Regularized_CVPR_2026_paper.pdf",
+      "code": null,
+      "tags": [
+        "vision",
+        "hfl",
+        "ot",
+        "agg"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-coordination",
+        "architecture-hierarchical"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": "Explicit client-station-server topology with optimal-transport alignment and regularized mean aggregation."
+    },
+    {
+      "id": "p010",
+      "title": "Unified Alignment Protocol: Making Sense of the Unlabeled Data in New Domains",
+      "venue": "WACV",
+      "year": 2026,
+      "paper": "https://openaccess.thecvf.com/content/WACV2026/papers/Ahmed_Unified_Alignment_Protocol_Making_Sense_of_the_Unlabeled_Data_in_WACV_2026_paper.pdf",
+      "code": null,
+      "tags": [
+        "vision",
+        "ood",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-summaries",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p011",
+      "title": "FedHAP: Federated Hierarchical Adaptive Prompt Learning for Cross-Domain Generalization",
+      "venue": "Applied Soft Computing",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.asoc.2026.115193",
+      "code": null,
+      "tags": [
+        "vision",
+        "vlm",
+        "prompt"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "Hierarchical prompts are a model-component hierarchy, not evidence of client-edge-cloud federation.",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.asoc.2026.115193"
+    },
+    {
+      "id": "p012",
+      "title": "DFA-FedDG: A Federated Domain Generalization Network Anomaly Detection System Based on Dynamic Feature Alignment",
+      "venue": "Computer Networks",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.comnet.2026.112356",
+      "code": null,
+      "tags": [
+        "iot",
+        "detect",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "Network anomaly detection is the application, not evidence that the federation resists poisoning or inference attacks.",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.comnet.2026.112356"
+    },
+    {
+      "id": "p013",
+      "title": "FedCode: Addressing Federated Domain Shift by Contrastive Feature Decoupling",
+      "venue": "Neurocomputing",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.neucom.2026.133151",
+      "code": null,
+      "tags": [
+        "general",
+        "align",
+        "contrastive"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.neucom.2026.133151"
+    },
+    {
+      "id": "p014",
+      "title": "Federated Domain Generalization via Prompt Learning and Aggregation",
+      "venue": "IEEE TIFS",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/TIFS.2026.3655520",
+      "code": null,
+      "tags": [
+        "vision",
+        "vlm",
+        "prompt"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TIFS.2026.3655520"
+    },
+    {
+      "id": "p015",
+      "title": "Token-Level Prompt Mixture With Parameter-Free Routing for Federated Domain Generalization",
+      "venue": "IEEE TIP",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/TIP.2026.3652431",
+      "code": "https://github.com/GongShuai8210/TRIP",
+      "tags": [
+        "vision",
+        "vlm",
+        "prompt"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TIP.2026.3652431"
+    },
+    {
+      "id": "p016",
+      "title": "FDGReID: Federated Domain Generalization for Person Re-identification",
+      "venue": "Machine Learning",
+      "year": 2026,
+      "paper": "https://link.springer.com/article/10.1007/s10994-025-06974-z",
+      "code": null,
+      "tags": [
+        "vision",
+        "reid",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p017",
+      "title": "Embracing Knowledge Integration from the Vision-Language Model for Federated Domain Generalization on Multi-Source Fused Data",
+      "venue": "Information Fusion",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.inffus.2025.103714",
+      "code": null,
+      "tags": [
+        "multimodal",
+        "vlm",
+        "distill"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.inffus.2025.103714"
+    },
+    {
+      "id": "p018",
+      "title": "FedCA: Federated Domain Generalization for Medical Image Segmentation via Cross-Client Feature Style Transfer and Adaptive Style Alignment",
+      "venue": "Expert Systems with Applications",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.eswa.2026.131394",
+      "code": null,
+      "tags": [
+        "medical",
+        "seg",
+        "style",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-protocols"
+      ],
+      "protocol": "protocol-sensitive",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Check the target-data and test-time inference/adaptation conditions before comparing with strict target-free FedDG.",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.eswa.2026.131394"
+    },
+    {
+      "id": "p019",
+      "title": "DPBGFL: Debiased Prototype Bidirectional Guided Federated Learning for Human Activity Recognition",
+      "venue": "Knowledge-Based Systems",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.knosys.2026.115895",
+      "code": null,
+      "tags": [
+        "iot",
+        "cls",
+        "proto"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-summaries",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.knosys.2026.115895"
+    },
+    {
+      "id": "p020",
+      "title": "FedSemiDG: Domain Generalized Federated Semi-Supervised Medical Image Segmentation",
+      "venue": "Medical Image Analysis",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.media.2026.104096",
+      "code": null,
+      "tags": [
+        "medical",
+        "seg",
+        "semi-supervised"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.media.2026.104096"
+    },
+    {
+      "id": "p021",
+      "title": "Advancing Federated Domain Generalization in Ophthalmology: Vision Enhancement and Consistency Assurance for Multicenter Fundus Image Segmentation",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.patcog.2025.111993",
+      "code": null,
+      "tags": [
+        "medical",
+        "seg",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.patcog.2025.111993"
+    },
+    {
+      "id": "p022",
+      "title": "FedFAT: Frequency Adaptive Interpolation for Federated Domain Generalization on Heterogeneous Medical Images",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.patcog.2025.112459",
+      "code": null,
+      "tags": [
+        "medical",
+        "freq",
+        "augment"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-summaries",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p023",
+      "title": "Federated Domain Generalization via Data-Centric Flatness Optimization",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.patcog.2025.113023",
+      "code": null,
+      "tags": [
+        "general",
+        "optim",
+        "flatness"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.patcog.2025.113023"
+    },
+    {
+      "id": "p024",
+      "title": "Federated Domain Generalization with Source Knowledge Preservation via Discriminative Ensembles",
+      "venue": "Information Sciences",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.ins.2025.122804",
+      "code": null,
+      "tags": [
+        "general",
+        "agg",
+        "ensemble"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.ins.2025.122804"
+    },
+    {
+      "id": "p025",
+      "title": "Using Class and Domain Information to Address Domain Shift in Federated Learning",
+      "venue": "IEEE TNNLS",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/TNNLS.2026.3658584",
+      "code": null,
+      "tags": [
+        "general",
+        "proto",
+        "agg"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TNNLS.2026.3658584"
+    },
+    {
+      "id": "p026",
+      "title": "Federated Domain Generalization with Data-Free On-Server Matching Gradient",
+      "venue": "ICLR",
+      "year": 2025,
+      "paper": "https://openreview.net/forum?id=8TERgu1Lb2",
+      "code": "https://github.com/skydvn/fedomg",
+      "tags": [
+        "general",
+        "grad",
+        "data-free"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-centralized",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p027",
+      "title": "Causality Inspired Federated Learning for OOD Generalization",
+      "venue": "ICML",
+      "year": 2025,
+      "paper": "https://proceedings.mlr.press/v267/zhang25ba.html",
+      "code": null,
+      "tags": [
+        "general",
+        "ood",
+        "causal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://proceedings.mlr.press/v267/zhang25ba.html"
+    },
+    {
+      "id": "p028",
+      "title": "Enhancing Foundation Models with Federated Domain Knowledge Infusion",
+      "venue": "ICML",
+      "year": 2025,
+      "paper": "https://icml.cc/virtual/2025/poster/46374",
+      "code": "https://github.com/JackqqWang/fedag",
+      "tags": [
+        "fm",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p029",
+      "title": "Federated Domain Generalization with Domain-Specific Soft Prompts Generation",
+      "venue": "ICCV",
+      "year": 2025,
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Federated_Domain_Generalization_with_Domain-specific_Soft_Prompts_Generation_ICCV_2025_paper.pdf",
+      "code": null,
+      "tags": [
+        "vision",
+        "vlm",
+        "prompt"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p030",
+      "title": "Federated Learning with Domain Shift Eraser",
+      "venue": "CVPR",
+      "year": 2025,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Federated_Learning_with_Domain_Shift_Eraser_CVPR_2025_paper.html",
+      "code": null,
+      "tags": [
+        "vision",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p031",
+      "title": "Federated Domain Generalization with Latent Space Inversion",
+      "venue": "ICDM",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/ICDM65498.2025.00072",
+      "code": "https://github.com/ragjapk/Latent-Space-Inversion",
+      "tags": [
+        "general",
+        "privacy",
+        "agg"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "communication-modules",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "Latent-space synthesis and importance-weighted aggregation explicitly address privacy and communication in FedDG. These motivations do not, by themselves, establish a differential-privacy or cryptographic guarantee.",
+      "verificationSource": "https://api.crossref.org/works/10.1109/ICDM65498.2025.00072"
+    },
+    {
+      "id": "p032",
+      "title": "Federated Graph Out-of-Distribution Generalization via Representation Propagation and Scattering",
+      "venue": "ICDM",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/ICDM65498.2025.00107",
+      "code": null,
+      "tags": [
+        "graph",
+        "ood",
+        "prop"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/ICDM65498.2025.00107"
+    },
+    {
+      "id": "p033",
+      "title": "TTA-FedDG: Leveraging Test-Time Adaptation to Address Federated Domain Generalization",
+      "venue": "AAAI",
+      "year": 2025,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/34053",
+      "code": "https://github.com/520haoyuanliang/TTA-FedDG",
+      "tags": [
+        "vision",
+        "tta"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-protocols"
+      ],
+      "protocol": "target-exposed",
+      "metadataCheck": "inherited",
+      "note": "Uses test-time adaptation; report target-data access and updates separately from strict target-free evaluation."
+    },
+    {
+      "id": "p034",
+      "title": "Federated Unsupervised Domain Generalization Using Global and Local Alignment of Gradients",
+      "venue": "AAAI",
+      "year": 2025,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/34197",
+      "code": "https://github.com/MahdiyarMM/FedGaLA",
+      "tags": [
+        "general",
+        "grad",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p035",
+      "title": "Improving Federated Domain Generalization Through Dynamical Weights Calculated from Data Influences on Global Model Update",
+      "venue": "AAAI",
+      "year": 2025,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/34468",
+      "code": null,
+      "tags": [
+        "general",
+        "agg",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p036",
+      "title": "FedGOG: Federated Graph Out-of-Distribution Generalization",
+      "venue": "AAAI",
+      "year": 2025,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/34459",
+      "code": null,
+      "tags": [
+        "graph",
+        "ood"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p037",
+      "title": "Federated Domain Generalization with Decision Insight Matrix",
+      "venue": "IJCAI",
+      "year": 2025,
+      "paper": "https://www.ijcai.org/proceedings/2025/633",
+      "code": null,
+      "tags": [
+        "general",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p038",
+      "title": "Federated Deconfounding and Debiasing Learning for Out-of-Distribution Generalization",
+      "venue": "IJCAI",
+      "year": 2025,
+      "paper": "https://www.ijcai.org/proceedings/2025/677",
+      "code": null,
+      "tags": [
+        "vision",
+        "ood",
+        "causal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p039",
+      "title": "Multi-Source Collaborative Style Augmentation and Domain-Invariant Learning for Federated Domain Generalization",
+      "venue": "IJCAI",
+      "year": 2025,
+      "paper": "https://arxiv.org/abs/2505.10152",
+      "code": null,
+      "tags": [
+        "vision",
+        "style",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "MCSAD in the linked manuscript; the previously linked FedAdvSty code repository has not been established as its official implementation.",
+      "verificationSource": "https://arxiv.org/abs/2505.10152"
+    },
+    {
+      "id": "p040",
+      "title": "BTFL: A Bayesian-based Test-Time Generalization Method for Internal and External Data Distributions in Federated Learning",
+      "venue": "KDD",
+      "year": 2025,
+      "paper": "https://doi.org/10.1145/3690624.3709309",
+      "code": null,
+      "tags": [
+        "general",
+        "tta",
+        "ood"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-protocols"
+      ],
+      "protocol": "protocol-sensitive",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "Check the target-data and test-time inference/adaptation conditions before comparing with strict target-free FedDG.",
+      "verificationSource": "https://api.crossref.org/works/10.1145/3690624.3709309"
+    },
+    {
+      "id": "p041",
+      "title": "PARDON: Privacy-Aware and Robust Federated Domain Generalization",
+      "venue": "ICDCS",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/ICDCS63083.2025.00074",
+      "code": "https://github.com/judydnguyen/PARDON-FedDG",
+      "tags": [
+        "vision",
+        "privacy",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "communication-summaries"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Abstracted, interpolative style sharing; privacy-aware design is not a differential-privacy or cryptographic guarantee.",
+      "verificationSource": "https://github.com/judydnguyen/PARDON-FedDG"
+    },
+    {
+      "id": "p042",
+      "title": "CUOM: A Causal Unbiased Optimization Method for Federated Domain Generalization",
+      "venue": "Knowledge-Based Systems",
+      "year": 2025,
+      "paper": "https://doi.org/10.1016/j.knosys.2025.114249",
+      "code": null,
+      "tags": [
+        "general",
+        "causal",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950705125012900"
+    },
+    {
+      "id": "p043",
+      "title": "A Unified Personalized Federated Learning Framework Ensuring Domain Generalization",
+      "venue": "Expert Systems with Applications",
+      "year": 2025,
+      "paper": "https://doi.org/10.1016/j.eswa.2024.125700",
+      "code": null,
+      "tags": [
+        "general",
+        "personal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.eswa.2024.125700"
+    },
+    {
+      "id": "p044",
+      "title": "Boosting Federated Domain Generalization: Understanding the Role of Advanced Pretrained Architectures",
+      "venue": "IEEE IoT-J",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/JIOT.2025.3579372",
+      "code": null,
+      "tags": [
+        "iot",
+        "vision",
+        "pretrained"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/JIOT.2025.3579372"
+    },
+    {
+      "id": "p045",
+      "title": "Federated Domain Generalization for Fault Diagnosis: Cross-Client Style Integration and Dual Alignment Representation",
+      "venue": "IEEE IoT-J",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/JIOT.2025.3551339",
+      "code": null,
+      "tags": [
+        "iot",
+        "fault",
+        "style",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/JIOT.2025.3551339"
+    },
+    {
+      "id": "p046",
+      "title": "Heterogeneous Federated Learning: Client-Side Collaborative Update Interdomain Generalization Method for Intelligent Fault Diagnosis",
+      "venue": "IEEE IoT-J",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/JIOT.2024.3489617",
+      "code": "https://github.com/JC952/P2PCHF",
+      "tags": [
+        "iot",
+        "fault",
+        "decentral"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-coordination",
+        "architecture-decentralized"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/JIOT.2024.3489617"
+    },
+    {
+      "id": "p047",
+      "title": "A Gradient Alignment Federated Domain Generalization Framework for Rotating Machinery Fault Diagnosis",
+      "venue": "IEEE IoT-J",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/JIOT.2025.3558163",
+      "code": null,
+      "tags": [
+        "iot",
+        "fault",
+        "grad"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/JIOT.2025.3558163"
+    },
+    {
+      "id": "p048",
+      "title": "Lightweight Federated Domain Generalization With Global-Local Contrastive Learning for Machine Fault Diagnosis",
+      "venue": "IEEE IoT-J",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/JIOT.2025.3590721",
+      "code": null,
+      "tags": [
+        "iot",
+        "fault",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Lightweight design is communication-relevant; distinguish parameter count, transmitted bytes, and accuracy-matched total traffic.",
+      "verificationSource": "https://api.crossref.org/works/10.1109/JIOT.2025.3590721"
+    },
+    {
+      "id": "p049",
+      "title": "Kindle Federated Generalization With Domain Specialized and Invariant Knowledge",
+      "venue": "IEEE TIFS",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/TIFS.2025.3550071",
+      "code": null,
+      "tags": [
+        "general",
+        "ood",
+        "moe"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TIFS.2025.3550071"
+    },
+    {
+      "id": "p050",
+      "title": "FedDGKA: Federated Domain Generalization Using Knowledge Alignment",
+      "venue": "IEEE Access",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/ACCESS.2025.3635473",
+      "code": null,
+      "tags": [
+        "vision",
+        "vlm",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/ACCESS.2025.3635473"
+    },
+    {
+      "id": "p051",
+      "title": "Margin-Guided Parameter Decoupling-Consensus Framework for Federated Domain Generalization in Machinery Fault Diagnosis",
+      "venue": "Knowledge-Based Systems",
+      "year": 2025,
+      "paper": "https://doi.org/10.1016/j.knosys.2025.114446",
+      "code": null,
+      "tags": [
+        "fault",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Classified by its optimization and parameter-decoupling mechanism; no separately verified security defense is attributed to this paper.",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.knosys.2025.114446"
+    },
+    {
+      "id": "p052",
+      "title": "Benchmarking Algorithms for Federated Domain Generalization",
+      "venue": "ICLR",
+      "year": 2024,
+      "paper": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/d4ee9e805cc90f636c66778225181036-Abstract-Conference.html",
+      "code": "https://github.com/inouye-lab/FedDG_Benchmark",
+      "tags": [
+        "benchmark"
+      ],
+      "status": "published",
+      "groups": [
+        "benchmark"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p053",
+      "title": "DiPrompT: Disentangled Prompt Tuning for Multiple Latent Domain Generalization in Federated Learning",
+      "venue": "CVPR",
+      "year": 2024,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_DiPrompT_Disentangled_Prompt_Tuning_for_Multiple_Latent_Domain_Generalization_in_CVPR_2024_paper.html",
+      "code": null,
+      "tags": [
+        "vision",
+        "vlm",
+        "prompt"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p054",
+      "title": "Efficiently Assemble Normalization Layers and Regularization for Federated Domain Generalization",
+      "venue": "CVPR",
+      "year": 2024,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Le_Efficiently_Assemble_Normalization_Layers_and_Regularization_for_Federated_Domain_Generalization_CVPR_2024_paper.html",
+      "code": "https://github.com/lhkhiem28/gPerXAN",
+      "tags": [
+        "vision",
+        "norm"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p055",
+      "title": "Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization",
+      "venue": "AAAI",
+      "year": 2024,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/29510",
+      "code": "https://github.com/weiyikang/FedGM",
+      "tags": [
+        "vision",
+        "grad",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p056",
+      "title": "Diversity-Authenticity Co-constrained Stylization for Federated Domain Generalization in Person Re-identification",
+      "venue": "AAAI",
+      "year": 2024,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/28468",
+      "code": null,
+      "tags": [
+        "vision",
+        "reid",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p057",
+      "title": "Federated Graph Learning under Domain Shift with Generalizable Prototypes",
+      "venue": "AAAI",
+      "year": 2024,
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/29468",
+      "code": null,
+      "tags": [
+        "graph",
+        "proto",
+        "contrastive"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-summaries",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p058",
+      "title": "Feature Diversification and Adaptation for Federated Domain Generalization",
+      "venue": "ECCV",
+      "year": 2024,
+      "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09073.pdf",
+      "code": null,
+      "tags": [
+        "vision",
+        "augment",
+        "tta"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-protocols"
+      ],
+      "protocol": "target-exposed",
+      "metadataCheck": "inherited",
+      "note": "Includes adaptation at deployment; distinguish target-exposed evaluation from source-only learning."
+    },
+    {
+      "id": "p059",
+      "title": "Local and Global Flatness for Federated Domain Generalization",
+      "venue": "ECCV",
+      "year": 2024,
+      "paper": "https://doi.org/10.1007/978-3-031-73010-8_5",
+      "code": "https://github.com/cnyanhao/FedLGF",
+      "tags": [
+        "vision",
+        "flatness",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p060",
+      "title": "FOOGD: Federated Collaboration for Both Out-of-Distribution Generalization and Detection",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper": "https://papers.nips.cc/paper_files/paper/2024/hash/efd1e27afcb94addd03b9e14c8d9f78f-Abstract-Conference.html",
+      "code": "https://github.com/XeniaLLL/FOOGD-main",
+      "tags": [
+        "general",
+        "ood",
+        "detect"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p061",
+      "title": "A Blockchain-Empowered Secure Federated Domain Generalization Framework for Machinery Fault Diagnosis",
+      "venue": "Advanced Engineering Informatics",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.aei.2024.102756",
+      "code": null,
+      "tags": [
+        "fault",
+        "decentral"
+      ],
+      "status": "published",
+      "groups": [
+        "security-coordination",
+        "architecture-decentralized"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Blockchain and committee consensus address aggregation integrity and single-point-of-failure concerns; they do not by themselves hide all updates.",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.aei.2024.102756"
+    },
+    {
+      "id": "p062",
+      "title": "FedITA: A Cloud-Edge Collaboration Framework for Domain Generalization-Based Federated Fault Diagnosis of Machine-Level Industrial Motors",
+      "venue": "Advanced Engineering Informatics",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.aei.2024.102853",
+      "code": null,
+      "tags": [
+        "fault",
+        "decentral"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-coordination",
+        "architecture-hierarchical"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Cloud-edge collaboration; inspect aggregation roles rather than inferring a topology from the application alone.",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.aei.2024.102853"
+    },
+    {
+      "id": "p063",
+      "title": "Decentralized Federated Domain Generalization with Cluster Alignment for Fault Diagnosis",
+      "venue": "Control Engineering Practice",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.conengprac.2024.105951",
+      "code": null,
+      "tags": [
+        "fault",
+        "decentral",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-coordination",
+        "architecture-decentralized"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.conengprac.2024.105951"
+    },
+    {
+      "id": "p064",
+      "title": "A Federated Distillation Domain Generalization Framework for Machinery Fault Diagnosis with Data Privacy",
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.engappai.2023.107765",
+      "code": "https://github.com/CHAOZHAO-1/FDDG",
+      "tags": [
+        "fault",
+        "distill",
+        "agg"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "communication-summaries",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.engappai.2023.107765"
+    },
+    {
+      "id": "p065",
+      "title": "Contrastive-Enhanced Domain Generalization With Federated Learning",
+      "venue": "IEEE TAI",
+      "year": 2024,
+      "paper": "https://doi.org/10.1109/TAI.2023.3298297",
+      "code": null,
+      "tags": [
+        "vision",
+        "align",
+        "contrastive"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TAI.2023.3298297"
+    },
+    {
+      "id": "p066",
+      "title": "Bilateral Proxy Federated Domain Generalization for Privacy-Preserving Medical Image Diagnosis",
+      "venue": "IEEE J-BHI",
+      "year": 2025,
+      "paper": "https://doi.org/10.1109/JBHI.2024.3456440",
+      "code": null,
+      "tags": [
+        "medical",
+        "dx",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Issue publication: 2025; early access: 2024.",
+      "verificationSource": "https://doi.org/10.1109/JBHI.2024.3456440"
+    },
+    {
+      "id": "p067",
+      "title": "Federated Adversarial Domain Hallucination for Privacy-Preserving Domain Generalization",
+      "venue": "IEEE TMM",
+      "year": 2024,
+      "paper": "https://doi.org/10.1109/TMM.2023.3257566",
+      "code": null,
+      "tags": [
+        "vision",
+        "augment"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TMM.2023.3257566"
+    },
+    {
+      "id": "p068",
+      "title": "Heterogeneous Federated Domain Generalization Network With Common Representation Learning for Cross-Load Machinery Fault Diagnosis",
+      "venue": "IEEE TSMC: Systems",
+      "year": 2024,
+      "paper": "https://doi.org/10.1109/TSMC.2024.3408058",
+      "code": null,
+      "tags": [
+        "fault",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TSMC.2024.3408058"
+    },
+    {
+      "id": "p069",
+      "title": "Federated Domain Generalization: A Secure and Robust Framework for Intelligent Fault Diagnosis",
+      "venue": "IEEE TII",
+      "year": 2024,
+      "paper": "https://doi.org/10.1109/TII.2023.3296894",
+      "code": "https://github.com/CHAOZHAO-1/FedDGMC",
+      "tags": [
+        "fault",
+        "robust"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TII.2023.3296894"
+    },
+    {
+      "id": "p070",
+      "title": "Fusing Consensus Knowledge: A Federated Learning Method for Fault Diagnosis via Privacy-Preserving Reference Under Domain Shift",
+      "venue": "Information Fusion",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.inffus.2024.102290",
+      "code": null,
+      "tags": [
+        "fault",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.inffus.2024.102290"
+    },
+    {
+      "id": "p071",
+      "title": "Federated Learning via Reweighting Information Bottleneck with Domain Generalization",
+      "venue": "Information Sciences",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.ins.2024.120825",
+      "code": null,
+      "tags": [
+        "general",
+        "ood",
+        "causal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.ins.2024.120825"
+    },
+    {
+      "id": "p072",
+      "title": "Federated Domain Generalization for Condition Monitoring in Ultrasonic Metal Welding",
+      "venue": "Journal of Manufacturing Systems",
+      "year": 2024,
+      "paper": "https://doi.org/10.1016/j.jmsy.2024.09.023",
+      "code": "https://github.com/AhmadrezaNia/FDG-CM",
+      "tags": [
+        "fault",
+        "cls",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.jmsy.2024.09.023"
+    },
+    {
+      "id": "p073",
+      "title": "RFDG: Reinforcement Federated Domain Generalization",
+      "venue": "IEEE TKDE",
+      "year": 2024,
+      "paper": "https://doi.org/10.1109/TKDE.2023.3301036",
+      "code": null,
+      "tags": [
+        "general",
+        "rl",
+        "decorrelation"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TKDE.2023.3301036"
+    },
+    {
+      "id": "p074",
+      "title": "Federated Analytics With Data Augmentation in Domain Generalization Toward Future Networks",
+      "venue": "IEEE TMLCN",
+      "year": 2024,
+      "paper": "https://doi.org/10.1109/TMLCN.2024.3393892",
+      "code": null,
+      "tags": [
+        "iot",
+        "augment",
+        "gan"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TMLCN.2024.3393892"
+    },
+    {
+      "id": "p075",
+      "title": "Federated Domain Generalization With Generalization Adjustment",
+      "venue": "CVPR",
+      "year": 2023,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Federated_Domain_Generalization_With_Generalization_Adjustment_CVPR_2023_paper.html",
+      "code": "https://github.com/MediaBrain-SJTU/FedDG-GA",
+      "tags": [
+        "vision",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-centralized",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p076",
+      "title": "Rethinking Federated Learning With Domain Shift: A Prototype View",
+      "venue": "CVPR",
+      "year": 2023,
+      "paper": "https://doi.org/10.1109/CVPR52729.2023.01565",
+      "code": "https://github.com/WenkeHuang/RethinkFL",
+      "tags": [
+        "vision",
+        "proto",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/CVPR52729.2023.01565"
+    },
+    {
+      "id": "p077",
+      "title": "Out-of-Distribution Generalization of Federated Learning via Implicit Invariant Relationships",
+      "venue": "ICML",
+      "year": 2023,
+      "paper": "https://proceedings.mlr.press/v202/guo23b.html",
+      "code": "https://github.com/YamingGuo98/FedIIR",
+      "tags": [
+        "general",
+        "ood"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-centralized",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p078",
+      "title": "StableFDG: Style and Attention Based Learning for Federated Domain Generalization",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/dae8bdacd265399b193e6b43d44a80f0-Abstract-Conference.html",
+      "code": null,
+      "tags": [
+        "vision",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "communication-summaries",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p079",
+      "title": "Federated Domain Generalization for Image Recognition via Cross-Client Style Transfer",
+      "venue": "WACV",
+      "year": 2023,
+      "paper": "https://openaccess.thecvf.com/content/WACV2023/html/Chen_Federated_Domain_Generalization_for_Image_Recognition_via_Cross-Client_Style_Transfer_WACV_2023_paper.html",
+      "code": "https://github.com/JeremyCJM/CCST",
+      "tags": [
+        "vision",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "communication-summaries",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p080",
+      "title": "Federated Condition Generalization on Low-Dose CT Reconstruction via Cross-Domain Learning",
+      "venue": "MICCAI",
+      "year": 2023,
+      "paper": "https://doi.org/10.1007/978-3-031-43898-1_5",
+      "code": null,
+      "tags": [
+        "medical",
+        "recon"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1007/978-3-031-43898-1_5"
+    },
+    {
+      "id": "p081",
+      "title": "Collaborative Semantic Aggregation and Calibration for Federated Domain Generalization",
+      "venue": "IEEE TKDE",
+      "year": 2023,
+      "paper": "https://doi.org/10.1109/TKDE.2023.3271851",
+      "code": null,
+      "tags": [
+        "general",
+        "agg",
+        "data-free"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-centralized",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Data-free layer-wise model aggregation and semantic calibration; not a claim that all communication is limited to class prototypes.",
+      "verificationSource": "https://api.crossref.org/works/10.1109/TKDE.2023.3271851"
+    },
+    {
+      "id": "p082",
+      "title": "Federated Learning for IoT Devices With Domain Generalization",
+      "venue": "IEEE IoT-J",
+      "year": 2023,
+      "paper": "https://doi.org/10.1109/JIOT.2023.3234977",
+      "code": null,
+      "tags": [
+        "iot"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1109/JIOT.2023.3234977"
+    },
+    {
+      "id": "p083",
+      "title": "Enhancing Domain Generalization in the AI-Based Analysis of Chest Radiographs with Federated Learning",
+      "venue": "Scientific Reports",
+      "year": 2023,
+      "paper": "https://doi.org/10.1038/s41598-023-49956-8",
+      "code": "https://github.com/tayebiarasteh/FLdomain",
+      "tags": [
+        "medical",
+        "dx"
+      ],
+      "status": "published",
+      "groups": [
+        "benchmark"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1038/s41598-023-49956-8"
+    },
+    {
+      "id": "p084",
+      "title": "Federated Domain Generalization with Global Robust Model Aggregation Strategy for Bearing Fault Diagnosis",
+      "venue": "Measurement Science and Technology",
+      "year": 2023,
+      "paper": "https://doi.org/10.1088/1361-6501/ace841",
+      "code": null,
+      "tags": [
+        "fault",
+        "agg"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1088/1361-6501/ace841"
+    },
+    {
+      "id": "p085",
+      "title": "FedSR: A Simple and Effective Domain Generalization Method for Federated Learning",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/fd946a6c99541fddc3d64a3ea39a1bc2-Abstract-Conference.html",
+      "code": "https://github.com/atuannguyen/FedSR",
+      "tags": [
+        "general",
+        "optim"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-centralized",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p086",
+      "title": "Federated Adversarial Domain Generalization Network: A Novel Machinery Fault Diagnosis Method with Data Privacy",
+      "venue": "Knowledge-Based Systems",
+      "year": 2022,
+      "paper": "https://doi.org/10.1016/j.knosys.2022.109880",
+      "code": null,
+      "tags": [
+        "fault",
+        "align"
+      ],
+      "status": "published",
+      "groups": [
+        "security-privacy",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "crossref-2026-10-12",
+      "note": "",
+      "verificationSource": "https://api.crossref.org/works/10.1016/j.knosys.2022.109880"
+    },
+    {
+      "id": "p087",
+      "title": "FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space",
+      "venue": "CVPR",
+      "year": 2021,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html",
+      "code": "https://github.com/liuquande/FedDG-ELCFS",
+      "tags": [
+        "medical",
+        "seg",
+        "freq"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "communication-summaries",
+        "architecture-centralized",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "inherited",
+      "note": ""
+    },
+    {
+      "id": "p088",
+      "title": "Collaborative Optimization and Aggregation for Decentralized Domain Generalization and Adaptation",
+      "venue": "ICCV",
+      "year": 2021,
+      "paper": "https://openaccess.thecvf.com/content/ICCV2021/html/Wu_Collaborative_Optimization_and_Aggregation_for_Decentralized_Domain_Generalization_and_Adaptation_ICCV_2021_paper.html",
+      "code": null,
+      "tags": [
+        "vision",
+        "decentral",
+        "da"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-centralized",
+        "architecture-modules"
+      ],
+      "protocol": "mixed-dg-da",
+      "metadataCheck": "inherited",
+      "note": "COPA includes DG and DA settings. Its feature-extractor aggregation is server-based; decentralized data access does not establish peer-to-peer training."
+    },
+    {
+      "id": "p090",
+      "title": "FedTAIL: A Federated Learning Framework for Domain Generalization via Tail Manipulation",
+      "venue": "OpenReview / Preprint",
+      "year": null,
+      "paper": "https://openreview.net/forum?id=0rhID2uB1L",
+      "code": null,
+      "tags": [],
+      "status": "needs-verification",
+      "groups": [],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "The inherited title/identifier could not be matched to a primary record. A similarly named FEDTAIL workshop paper has a different title and identifier; do not conflate them.",
+      "verificationSource": "https://openreview.net/"
+    },
+    {
+      "id": "p091",
+      "title": "FedSDAF: Leveraging Source Domain Awareness for Enhanced Federated Domain Generalization",
+      "venue": "arXiv",
+      "year": 2025,
+      "paper": "https://arxiv.org/abs/2505.02515",
+      "code": "https://github.com/pizzareapers/FedSDAF",
+      "tags": [],
+      "status": "preprint",
+      "groups": [
+        "security-artifacts",
+        "communication-modules",
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Selective preprint: separates local domain-aware and shared domain-invariant adapters with bidirectional knowledge distillation. Adapter modularity is not automatically a prompt-learning method.",
+      "verificationSource": "https://arxiv.org/abs/2505.02515"
+    },
+    {
+      "id": "p092",
+      "title": "FedDAG: Federated Domain Adversarial Generation Towards Generalizable Medical Image Analysis",
+      "venue": "arXiv",
+      "year": 2025,
+      "paper": "https://arxiv.org/abs/2501.13967",
+      "code": null,
+      "tags": [
+        "medical",
+        "augment"
+      ],
+      "status": "preprint",
+      "groups": [
+        "architecture-diversity",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Selective preprint: adversarially generates novel domains rather than relying only on source-style recombination, with sharpness-aware aggregation in medical FedDG.",
+      "verificationSource": "https://arxiv.org/abs/2501.13967"
+    },
+    {
+      "id": "p093",
+      "title": "Federated Out-of-Distribution Generalization: A Causal Augmentation View",
+      "venue": "IJCNN",
+      "year": 2025,
+      "paper": "https://arxiv.org/abs/2504.19882",
+      "code": null,
+      "tags": [
+        "vision",
+        "ood",
+        "causal"
+      ],
+      "status": "other-publication",
+      "groups": [],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "The arXiv record states IJCNN 2025 acceptance. Not counted as an A/A* or Q1 priority entry.",
+      "verificationSource": "https://arxiv.org/abs/2504.19882"
+    },
+    {
+      "id": "p094",
+      "title": "TreeFedDG: Alleviating Global Drift in Federated Domain Generalization for Medical Image Segmentation",
+      "venue": "arXiv",
+      "year": 2025,
+      "paper": "https://arxiv.org/abs/2510.18268",
+      "code": null,
+      "tags": [
+        "medical",
+        "seg",
+        "agg"
+      ],
+      "status": "preprint",
+      "groups": [
+        "architecture-hierarchical",
+        "architecture-modules",
+        "architecture-protocols"
+      ],
+      "protocol": "protocol-sensitive",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Selective preprint: tree-structured aggregation with feature-similarity-guided model-chain retrieval at inference. Inspect the deployment routing and target-information assumptions before a strict target-free comparison.",
+      "verificationSource": "https://arxiv.org/abs/2510.18268"
+    },
+    {
+      "id": "p095",
+      "title": "Dual Debiasing Learning for Single-Source Federated Domain Generalization under Data Imbalance",
+      "venue": "Neurocomputing",
+      "year": 2026,
+      "paper": "https://doi.org/10.1016/j.neucom.2026.134251",
+      "code": null,
+      "tags": [
+        "general",
+        "causal"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-causal"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://www.sciencedirect.com/science/article/pii/S0925231226016498"
+    },
+    {
+      "id": "p096",
+      "title": "FedBPrompt: Federated Domain Generalization Person Re-Identification via Body Distribution Aware Visual Prompts",
+      "venue": "CVPR",
+      "year": 2026,
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_FedBPrompt_Federated_Domain_Generalization_Person_Re-Identification_via_Body_Distribution_Aware_CVPR_2026_paper.html",
+      "code": null,
+      "tags": [
+        "vision",
+        "reid",
+        "prompt"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Communication reduction applies to the PFTS frozen-backbone prompt-tuning regime, not automatically to every training configuration.",
+      "verificationSource": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_FedBPrompt_Federated_Domain_Generalization_Person_Re-Identification_via_Body_Distribution_Aware_CVPR_2026_paper.html"
+    },
+    {
+      "id": "p097",
+      "title": "FedSSG: Style-Selective Global Aggregation for Federated Domain Generalization in Medical Image Classification",
+      "venue": "arXiv",
+      "year": 2026,
+      "paper": "https://arxiv.org/abs/2601.00934",
+      "code": null,
+      "tags": [
+        "medical",
+        "cls",
+        "style"
+      ],
+      "status": "needs-verification",
+      "groups": [],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "arXiv:2601.00934 is an unrelated mathematics paper. No primary record was found for the inherited FedSSG title.",
+      "verificationSource": "https://arxiv.org/abs/2601.00934"
+    },
+    {
+      "id": "p098",
+      "title": "Fed-DIP: Federated Domain Generalization by Synergizing Implicit Disentanglement and Context-Aware Prompting",
+      "venue": "OpenReview",
+      "year": 2026,
+      "paper": "https://openreview.net/forum?id=VbmV3rs284",
+      "code": null,
+      "tags": [
+        "fm"
+      ],
+      "status": "preprint",
+      "groups": [
+        "architecture-prompts",
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Selective manuscript: combines implicit disentanglement and context-aware prompting. Public ICLR 2026 submission manuscript located; an acceptance decision has not been verified.",
+      "verificationSource": "https://openreview.net/forum?id=VbmV3rs284"
+    },
+    {
+      "id": "p099",
+      "title": "FedHyMoe: Heterogeneous One-Shot Federated Learning with Model-Agnostic Mixture-of-Experts",
+      "venue": "OpenReview",
+      "year": 2026,
+      "paper": "https://openreview.net/forum?id=8AT6UBjpVV",
+      "code": null,
+      "tags": [
+        "moe"
+      ],
+      "status": "needs-verification",
+      "groups": [],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "The inherited title/identifier could not be confirmed. A FedHyMoe submission exists at t3FSGlOcsG, but its title and decision must be reconciled before replacing this entry.",
+      "verificationSource": "https://openreview.net/"
+    },
+    {
+      "id": "p100",
+      "title": "CO-EVO: Co-evolving Semantic Anchoring and Style Diversification for Federated DG-ReID",
+      "venue": "ACL",
+      "year": 2026,
+      "paper": "https://aclanthology.org/2026.acl-long.1493/",
+      "code": "https://github.com/NanYiyuzurn/ACL-LGPS-2026",
+      "tags": [
+        "vision",
+        "reid",
+        "style"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "",
+      "verificationSource": "https://aclanthology.org/2026.acl-long.1493/"
+    },
+    {
+      "id": "p101",
+      "title": "FedStain: Modeling Higher-Order Stain Statistics for Federated Domain Generalization in Computational Pathology",
+      "venue": "arXiv",
+      "year": 2026,
+      "paper": "https://arxiv.org/abs/2605.14590",
+      "code": null,
+      "tags": [
+        "medical",
+        "style"
+      ],
+      "status": "preprint",
+      "groups": [
+        "security-artifacts",
+        "communication-summaries",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Selective preprint: shares higher-order stain descriptors, including skewness and kurtosis, to address non-Gaussian pathology stain shifts. Compact statistics do not by themselves establish formal privacy.",
+      "verificationSource": "https://arxiv.org/abs/2605.14590"
+    },
+    {
+      "id": "p102",
+      "title": "FedCoda: Calibrating and Debiasing Prototypes for Federated Domain Generalization",
+      "venue": "SSRN",
+      "year": 2026,
+      "paper": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986034",
+      "code": null,
+      "tags": [
+        "general",
+        "proto"
+      ],
+      "status": "preprint",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "note": "Retained inherited preprint on prototype calibration and debiasing in FedDG; SSRN identity verified, but peer-reviewed publication status and a full protocol audit are not established.",
+      "verificationSource": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986034"
+    },
+    {
+      "id": "efficient-fdt-2023",
+      "title": "Efficient Federated Domain Translation",
+      "venue": "ICLR",
+      "year": 2023,
+      "paper": "https://openreview.net/forum?id=uhLAcrAZ9cJ",
+      "code": "https://github.com/inouye-lab/fedinb",
+      "tags": [
+        "vision",
+        "translation",
+        "dg"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-coordination",
+        "architecture-diversity"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://openreview.net/forum?id=uhLAcrAZ9cJ",
+      "note": "Federated pseudodata generation with explicit communication/computation analysis and a downstream domain-generalization evaluation."
+    },
+    {
+      "id": "style-ddg-2026",
+      "title": "Decentralized Domain Generalization with Style Sharing: Formal Model and Convergence Analysis",
+      "venue": "IEEE INFOCOM",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/INFOCOM59046.2026.11571206",
+      "code": null,
+      "tags": [
+        "vision",
+        "style",
+        "decentralized"
+      ],
+      "status": "published",
+      "groups": [
+        "security-artifacts",
+        "communication-summaries",
+        "communication-coordination",
+        "architecture-decentralized"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://doi.org/10.1109/INFOCOM59046.2026.11571206",
+      "note": "StyleDDG exchanges models and style information with one-hop peers; a held-out-domain test does not by itself specify new-node attachment.",
+      "secondary": "https://arxiv.org/abs/2504.06235"
+    },
+    {
+      "id": "data-influences-2026",
+      "title": "Enhancing Federated Domain Generalization by Data Influences on Global Model Update",
+      "venue": "IEEE TKDE",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/TKDE.2026.3691040",
+      "code": null,
+      "tags": [
+        "general",
+        "aggregation",
+        "influence"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://doi.org/10.1109/TKDE.2026.3691040",
+      "note": "Journal article on influence-based aggregation; related to the AAAI 2025 Data Influences entry, not a separate method count."
+    },
+    {
+      "id": "style-transfer-tip-2026",
+      "title": "Image Style Transfer-Empowered Federated Domain Generalization",
+      "venue": "IEEE TIP",
+      "year": 2026,
+      "paper": "https://doi.org/10.1109/TIP.2026.3720516",
+      "code": null,
+      "tags": [
+        "vision",
+        "style",
+        "aggregation"
+      ],
+      "status": "published",
+      "groups": [
+        "architecture-diversity",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://doi.org/10.1109/TIP.2026.3720516",
+      "note": "Combines local style transfer with server aggregation using an unlabeled public reference dataset; public-data assumptions should be reported."
+    },
+    {
+      "id": "fed-mgp-2025",
+      "title": "FedMGP: Personalized Federated Learning with Multi-Group Text-Visual Prompts",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4a4d5fca4bbb93ead4548854f1f28c0f-Abstract-Conference.html",
+      "code": "https://github.com/weihao-bo/FedMGP",
+      "tags": [
+        "vision",
+        "prompt",
+        "vlm"
+      ],
+      "status": "published",
+      "groups": [
+        "communication-modules",
+        "architecture-prompts"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4a4d5fca4bbb93ead4548854f1f28c0f-Abstract-Conference.html",
+      "note": "Includes domain-generalization evaluation alongside personalization; similarity-guided prompt-group sampling changes the communication payload."
+    },
+    {
+      "id": "tcpa-online-2026",
+      "title": "Reconciling Discriminability and Stability: Task-guided Feature Calibration and Prototype Anchoring for Federated Domain Generalization in Medical Imaging",
+      "venue": "Expert Systems with Applications",
+      "year": 2027,
+      "paper": "https://doi.org/10.1016/j.eswa.2026.133985",
+      "code": null,
+      "tags": [
+        "medical",
+        "prompt",
+        "prototype"
+      ],
+      "status": "online-first",
+      "groups": [
+        "architecture-prompts",
+        "architecture-optimization"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://www.sciencedirect.com/science/article/abs/pii/S0957417426028915",
+      "note": "Available online 13 August 2026; assigned to the January 2027 issue. Client feature calibration and server prototype anchoring use a frozen pretrained backbone.",
+      "onlineYear": 2026,
+      "onlineDate": "2026-08-13"
+    },
+    {
+      "id": "fed-cfm-2026",
+      "title": "FedCFM: Federated Continual Domain Generalization for Fake Speech Detection via Conditional Flow Matching",
+      "venue": "arXiv",
+      "year": 2026,
+      "paper": "https://arxiv.org/abs/2610.01242",
+      "code": null,
+      "tags": [
+        "speech",
+        "continual",
+        "generation"
+      ],
+      "status": "preprint",
+      "groups": [
+        "architecture-diversity",
+        "architecture-modules"
+      ],
+      "protocol": "not-audited",
+      "metadataCheck": "checked-2026-10-12",
+      "verificationSource": "https://arxiv.org/abs/2610.01242",
+      "note": "Selective manuscript: extends FedDG to continual spoof-domain shifts through conditional-flow generation and cross-client generator exchange. The authors report IEEE SLT 2026 acceptance in the arXiv comments; a published proceedings record has not been verified."
+    }
+  ]
+}
